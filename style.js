@@ -64,7 +64,7 @@ let playRound = function(human_choice, computer_choice) {
         return console.log("You win!Rock beats Scissors");
     }
     else {
-        return console.log("No one wins");
+        return console.log(`No one wins!${human_choice} cannot beats ${computer_choice}`);
     }
 }
 
